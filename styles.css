@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    font-size: 26px;
+    margin: auto;
+    padding: auto;
+}
+
+#brand{
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
+
+div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+ul li{
+    width: 24%;
+    height: 50px;
+    display: inline-block;
+    margin-top: 50px; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+ul li a{
+    color: black;
+    font-size: 0.8em;
+}
+
+.meio{
+    width: 100%;
+}
+
+.meio h2{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1.4em;
+}
+
+.meio img{
+    width: 100%;
+}
+
+
+.store{
+    border: none;
+    vertical-align: middle;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline;
+}
+
+.store img{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+
+.products{
+    display: flex;
+}
+
+.products p{
+    font-size: 0.6em;
+}
+
+.products a{
+    color: black;
+}
+
+.store .products{
+    justify-content: center;
+}
+
+.store .container{
+    border: solid 5px rgb(211, 208, 208, 0.7);
+    width: fit-content;
+    height: fit-content;
+    margin: 0.2%;
+}
+
+.cortado{
+    border: none;
+    vertical-align: middle;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline;
+}
+
+.modelos .cortado{
+    width: fit-content;
+    height: fit-content;
+}
+
+.cortado img{
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.cortado a{
+    color: black;
+}
+
+.cortado h4{
+    font-size: 0.9em;
+}
+
+.cortado p{
+    font-size: 0.6em;
+}
+
+.instafeed{
+    width: 100%;
+    /* display: block; */
+    margin-top: 5%;
+}
+
+.instafeed h2{
+    margin-top: 3%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.instafeed img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.instafeed a{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    color: black;
+}
+
+.hours{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
