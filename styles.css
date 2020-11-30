@@ -171,7 +171,9 @@ ul li a{
 
 
 
-
+#sticky-footer {
+    flex-shrink: none;
+  }
 
 
 
