@@ -130,6 +130,15 @@ ul li a{
     height: fit-content;
 }
 
+.map {
+    height: 400px;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .cortado img{
     width: 250px;
     height: 250px;
