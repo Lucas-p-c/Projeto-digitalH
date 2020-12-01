@@ -19,8 +19,8 @@
                 <img src="/images/WhatsApp Image 2020-11-19 at 17.08.29.jpeg" alt="logo" width="120px" height="120px">
             </div>
         </div>
-        <div class="row">
 
+        <div class="row">
             <div class="col">
                 <div class="menu">
                     <ul>
@@ -47,28 +47,28 @@
     <main class="store">
         <div class="row products">
             <div class="container">
-                    <a href="/produtos.html">
+                <a href="/produtos.html">
                     <img src="/images/pomada branca.jpg" alt="pomada">
                     <p>pomada-branca</p>
                     <p>R$30,00</p>
                 </a>
             </div>
             <div class="container">
-                    <a href="/produtos.html">
+                <a href="/produtos.html">
                     <img src="/images/pomada preta.jpg" alt="pomada">
                     <p>pomada-branca</p>
                     <p>R$30,00</p>
                 </a>
             </div>
             <div class="container">
-                    <a href="/produtos.html">
+                <a href="/produtos.html">
                     <img src="/images/oleo-de-barba.jpg" alt="oleo">
                     <p>pomada-branca</p>
                     <p>R$30,00</p>
                 </a>
             </div>
             <div class="container">
-                    <a href="/produtos.html">
+                <a href="/produtos.html">
                     <img src="/images/pomada-conjunto.jpg" alt="kit">
                     <p>pomada-branca</p>
                     <p>R$30,00</p>
@@ -80,54 +80,81 @@
     <main class="modelos">
         <div class="row">
             <div class="cortado">
-                    <a href="/servicos.html">
-                        <img src="/images/modelo-corte-barba.jpg" alt="barba">
-                        <h4>Corte Cabelo</h4>
-                        <p>R$30,00</p>
-                        <p>30 min</p>
-                    </a>
+                <a href="/servicos.html">
+                    <img src="/images/modelo-corte-barba.jpg" alt="barba">
+                    <h4>Corte Cabelo</h4>
+                    <p>R$30,00</p>
+                    <p>30 min</p>
+                </a>
             </div>
             <div class="cortado">
-                    <a href="servicos.html">
-                        <img src="/images/modelo-corte-barba.jpg" alt="barba">
-                        <h4>Corte Barba</h4>
-                        <p>R$30,00</p>
-                        <p>30 min</p>
-                    </a>
+                <a href="servicos.html">
+                    <img src="/images/modelo-corte-barba.jpg" alt="barba">
+                    <h4>Corte Barba</h4>
+                    <p>R$30,00</p>
+                    <p>30 min</p>
+                </a>
             </div>
             <div class="cortado">
-                    <a href="/servicos.html">
-                        <img src="/images/modelo-corte-barba.jpg" alt="barba">
-                        <h4>Cabelo e Barba</h4>
-                        <p>R$50,00</p>
-                        <p>1 hr</p>
-                    </a>
+                <a href="/servicos.html">
+                    <img src="/images/modelo-corte-barba.jpg" alt="barba">
+                    <h4>Cabelo e Barba</h4>
+                    <p>R$50,00</p>
+                    <p>1 hr</p>
+                </a>
             </div>
         </div>
     </main>
 
     <main class="instafeed">
-            <h2>Galeria do insta</h2>
-            <img src="/images/acessorios-de-barbearia-na-mesa-de-madeira-espaco-de-copia-de-fundo-de-barbearia_97875-195.jpg" alt="">
-            <a href="#">Instagram</a> 
-        </main>
+        <h2>Galeria do insta</h2>
+        <img src="/images/acessorios-de-barbearia-na-mesa-de-madeira-espaco-de-copia-de-fundo-de-barbearia_97875-195.jpg"
+            alt="">
+        <a href="#">Instagram</a>
+    </main>
 
-        <main class="hours">
-            <h2>Horários</h2>
-            <h3>Venha nos visitar</h3>
-            <p>Seg - Sáb: 09:00 às 18:00</p>
-        </main>
-
-
-        <footer id="sticky-footer">
-            <div class="container text-center">
-              <small>Copyright &copy; BARBERSHOP RENAN</small>
-            </div>
-          </footer>
-    
+    <main class="hours">
+        <h2>Horários</h2>
+        <h3>Venha nos visitar</h3>
+        <p>Seg - Sáb: 09:00 às 18:00</p>
+    </main>
 
 
-    
+    <main id="map" class="map">
+        <h2>My Map</h2>
+        <div></div>
+        <script type="text/javascript">
+            var map = new ol.Map({
+             target: 'map',
+             layers: [
+               new ol.layer.Tile({
+               source: new ol.source.OSM()
+             })
+            ],
+            view: new ol.View({
+                center: ol.proj.fromLonLat([-47.22 , -22.97]),
+                zoom: 6
+            })
+         });
+        </script>
+    </main>
+
+
+
+    <footer>
+        <div class="copyright">
+            <p>copyright 2020 - BarberShop Renan</p>
+        </div>
+        <div class="social">
+            <a href="#" class="support">Contact Us</a>
+            <a href="#" class="face">f</a>
+            <a href="#" class="tweet">t</a>
+            <a href="#" class="linked">in</a>
+        </div>
+    </footer>
+
+
+
 
 
 
