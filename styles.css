@@ -2,39 +2,47 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-body{
-    max-width: 1200px;
-    font-size: 26px;
-    margin: auto;
-    padding: auto;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
-html, body {
-    font-family: Raleway, sans-serif;  
-    background-color: #fff;
+
+
+body{
+    max-width: 1200px;
+    font-size: 26px;
+    margin: auto;
+    padding: auto;
+    background-image: url("./images/fundo-barber.jpg");
+    background-repeat: repeat;
 }
 
+
+  
+html, body{
+    font-family: Raleway, sans-serif;  
+    /* background-color: #fff; */
+
+}
+
+/* LOGO DO CABEÇALHO */
 div img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 
+/* MENU DE NAVEGACAO */
 ul {
     width: 90%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 8.5%;
     justify-content: space-between;
 }
 
@@ -73,8 +81,10 @@ ul li a {
 
 #brand{
     font-family: Arial, Helvetica, sans-serif;
-    color: chocolate;
+    /* color: chocolate; */
 }
+
+/* TEXTO E IMAGEM APOS O MENU  */
 
 .meio{
     width: 100%;
@@ -82,7 +92,7 @@ ul li a {
 
 .meio h2{
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
     font-size: 1.4em;
     font-family: Ralaway, sans-serif;
     font-style: italic;
@@ -101,7 +111,43 @@ ul li a {
     }
 }
 
+/* CAROUSEL SLIDER */
+.carousel-container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border: 5px solid black;
+    position: relative;
+}
 
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* LISTA DE PRODUTOS */
 .store{
     border: none;
     vertical-align: middle;
@@ -154,6 +200,7 @@ ul li a {
     margin: 0.2%;
 }
 
+/* LISTA DE SERVICOS */
 .cortado{
     border: none;
     vertical-align: middle;
@@ -171,14 +218,6 @@ ul li a {
     height: fit-content;
 }
 
-.map {
-    height: 400px;
-    width: 50%;
-    justify-content: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .cortado img{
     width: 250px;
@@ -245,25 +284,32 @@ ul li a {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     margin-top: 5%;
 }
 
-.map {
-    height: 400px;
-    width: 50%;
-    justify-content: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+/* MAPA DE LOCALIZACAO */
+.map{
+    height: 500px;
+    position: relative;
+    width: 100%;
+    border-radius: 30px;
+    top: 80px;
+    background: url('../img/teste.jpg');;
+    box-shadow: 5px 10px 11px 0px rgba(0,0,0,0.25);
+    margin: auto;
 }
 
+/* RODAPÉ */
 footer {
     width: 100%;
     display: inline-block;
-    margin: 2em 0;
+    /* margin: 5em 0; */
     height: 70px;
     background-color: #999;   
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 8em;
 }
 
 .copyright {
@@ -273,7 +319,7 @@ footer {
 
 .copyright p {
         padding-left: 10%;
-        color: white;
+        color: black;
         font-size: 0.7em;
         line-height: 70px;
         text-transform: capitalize;
@@ -289,7 +335,7 @@ footer {
     float: left;
     line-height: 70px;
     text-decoration: none;        
-    color: white;
+    color: black;
     text-align: center;
     font-weight: bold; 
     transition: all, 0.3s;
@@ -389,7 +435,8 @@ footer {
 .title {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 .product-list {
@@ -409,7 +456,7 @@ footer {
     justify-content: center;
     width: 45%;
     border: solid 5px rgb(211, 208, 208, 0.7);
-    margin: 10px;
+    margin: 30px;
     padding: 10px;
     background-color: #ffffff;
 }
@@ -504,15 +551,21 @@ a.product strong, a.product span {
     padding: 15px;
     margin-bottom: 3rem;
 }
+
 .product-details img {
     width: auto;
     max-height: 450px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .product-details p {
     text-align: center;
     font-size: 1rem;
+}
+
+.product-details span {
+    margin-bottom: 1em;
 }
 
 
