@@ -23,7 +23,7 @@ html, body{
 }
 
 /* LOGO DO CABEÇALHO */
-div img{
+div img #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -237,8 +237,25 @@ button:hover {
 /* INSTAFEED */
 .instafeed{
     width: 100%;
-    /* display: block; */
     margin-top: 100px;
+}
+
+.instafeed .img-instagram {
+    width: 250px;
+    height: 250px;
+    margin: 0 10px 20px 10px;
+    overflow: hidden;
+}
+
+.instafeed .img-instagram img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media (max-width: 780px) {
@@ -246,6 +263,11 @@ button:hover {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .instafeed .img-instagram  {
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
     }
 } 
 
@@ -257,15 +279,15 @@ button:hover {
     margin-right: auto;
 }
 
-.instafeed img{
+/* .instafeed img{
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-}
+} */
 
-.instafeed a{
+.instafeed a {
     display: block;
     justify-content: center;
     text-align: center;
@@ -621,3 +643,4 @@ a.product strong, a.product span {
         text-align: left;
     }
 }
+
