@@ -23,7 +23,7 @@ html, body{
 }
 
 /* LOGO DO CABEÇALHO */
-div img #logo {
+div.logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
