@@ -77,6 +77,29 @@ ul li a {
 
 }
 
+button {
+    color: #333;
+    background-color: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #333;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    transition: all 0.2s;
+    min-width: 100px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #333;
+    color:#fff;
+}
+
 
 /* TEXTO E IMAGEM APOS O MENU  */
 
@@ -284,6 +307,7 @@ footer {
     position: relative;
     margin-bottom: 0;
     margin-top: 8em;
+    display: flex;
 }
 
 .copyright {
@@ -345,32 +369,38 @@ footer {
   }
   
 @media (max-width: 600px) {
-footer {
-    max-width: 100%;
-    /* margin-left: 2%; */
-    font-size: 0.8em;
-    justify-content: center;
-}
-.copyright {
-      width: 100%;
+    footer {
+        max-width: 100%;
+        /* margin-left: 2%; */
+        font-size: 0.8em;
+        justify-content: center;
     }
-
-.copyright p {
-          text-align: center;
-          padding: 0;
-        }     
-
-.social {
+    .copyright {
         width: 100%;
-      }
+        height: 100%;
+        }
+
+    .copyright p {
+            text-align: center;
+            padding: 0;
+
+            }     
+
+    .social {
+            width: 100%;
+        }
 }
 
 @media (max-width: 780px) {
     footer{
-        width: 92%;
-        margin-left: 40px;
-        margin-right: auto;
+        width: 100%;
+        /* margin-left: 40px; */
+        /* margin-right: auto; */
         justify-content: center;
+        flex-direction: column;
+    }
+    footer .copyright p {
+        background-color: #999;
     }
 }
     /* LUCAS: incluí aqui o css para quemSomos */
