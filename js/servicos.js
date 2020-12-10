@@ -1,5 +1,4 @@
 // SERVICOS
-
 s1.addEventListener("click", function() {
     let detalheServicos = document.querySelector("#detalheServicos");
     let tituloServico = document.querySelector("#titulo")

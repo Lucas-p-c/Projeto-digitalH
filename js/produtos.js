@@ -19,7 +19,7 @@
 // let valorProdutoPrincipal = document.querySelector("#valorProdutoPrincipal");
 // let descricaoProdutoPrincipal = document.querySelector("#descricaoProdutoPrincipal");
 
-// let p1 = document.querySelector("#p1");
+let p1 = document.querySelector("#p1");
 
 p1.addEventListener("click", function() {
     let detalheProduto = document.querySelector("#detalheProduto");
