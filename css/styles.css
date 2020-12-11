@@ -18,8 +18,6 @@ body{
   
 html, body{
     font-family: Raleway, sans-serif;  
-    /* background-color: #fff; */
-
 }
 
 /* LOGO DO CABEÇALHO */
@@ -48,7 +46,7 @@ ul {
         flex-wrap: wrap;        
     }
     ul li {
-        margin: 30px;
+        margin: 25px;
         margin-bottom: auto;
         margin-top: auto;
         justify-content: space-between;
@@ -100,9 +98,7 @@ button:hover {
     color:#fff;
 }
 
-
 /* TEXTO E IMAGEM APOS O MENU  */
-
 .meio{
     width: 100%;
 }
@@ -229,11 +225,6 @@ button:hover {
     }
 }
 
-/* PRODUTOS E SERVICOS INDEX*/
-/* #btnIndex{
-    
-} */
-
 /* INSTAFEED */
 .instafeed{
     width: 100%;
@@ -278,14 +269,6 @@ button:hover {
     margin-left: auto;
     margin-right: auto;
 }
-
-/* .instafeed img{
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-} */
 
 .instafeed a {
     display: block;
@@ -393,7 +376,6 @@ footer {
 @media (max-width: 600px) {
     footer {
         max-width: 100%;
-        /* margin-left: 2%; */
         font-size: 0.8em;
         justify-content: center;
     }
@@ -416,8 +398,6 @@ footer {
 @media (max-width: 780px) {
     footer{
         width: 100%;
-        /* margin-left: 40px; */
-        /* margin-right: auto; */
         justify-content: center;
         flex-direction: column;
     }
